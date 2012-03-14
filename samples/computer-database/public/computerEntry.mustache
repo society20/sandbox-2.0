@@ -1,0 +1,11 @@
+{{#items}}
+	<tr>
+		<td>{{name}}</td>
+		<td>{{introduced}}</td>
+		<td>
+			{{#discontinued}}{{discontinued}}{{/discontinued}}
+			{{^discontinued}}--{{/discontinued}}
+		</td>
+		<td>{{company.name}}</td>
+	</tr>
+{{/items}}

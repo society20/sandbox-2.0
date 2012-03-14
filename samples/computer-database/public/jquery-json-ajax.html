@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+		<script src="jquery-1.7.1.js"></script>
+		<style>
+			.my-new-list {
+				background-color: #f0f0f0 !important;
+			}
+		</style>
+		<link rel="stylesheet" type="text/css" media="screen" href="stylesheets/bootstrap.min.css">
+	</head>
+	<body>
+		<p id="myp" style="cursor: pointer;">
+			Click Here to see some cats!
+		</p>
+		<table id="mytable" class="table table-striped table-bordered table-condensed">
+			<tr>
+				<td>Col1</td>
+				<td>Col2</td>
+				<td>Col3</td>
+			</tr>
+		</table>
+		</div>
+		<script>
+		
+			$("#myp").click(function(event) {
+
+				jQuery.getJSON('test.json', function(data) {
+
+					$("#mytable").empty();
+					$.each(data, function(index, collection) {
+
+						$('<tr/>', {
+							'id' : index,
+							html : '<td>' + collection.one + '</td><td>' + collection.two + '</td><td>' + collection.three + '</td>'
+						}).appendTo("#mytable");
+					});
+					
+					$("#mytable").addClass("my-new-list");
+				});
+			});
+
+		</script>
+	</body>
+</html>

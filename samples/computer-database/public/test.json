@@ -1,0 +1,33 @@
+{
+	"total": 32,
+	"current_page": 4,
+	"items": [{
+		  "oid": "12345",
+		  "name": "Singular sensatifdferon",
+		  "introduced": "Beady little eyes",
+		  "discontinued": "Little birds pitch by my doorstep",
+		  "company": { 
+		  				"name": "Little birds pitch by my doorstep",
+		  				"company_id": "1221HGhjg1F2G112122"
+		  			}
+		},
+		{
+		  "oid": "12346",
+		  "name": "Singular senrzerzersation",
+		  "introduced": "Beady little eyes",
+		  "company": { 
+		  				"name": "Little birds pitch by my doorstep",
+		  				"company_id": "1221HGhjg1F2G112122"
+		  			}
+		},
+			{
+		  "oid": "1234876",
+		  "name": "Singudezaezerlar sensation",
+		  "introduced": "Beady little eyes",
+		  "discontinued": "Little birds pitch by my doorstep",
+		  "company": { 
+		  				"name": "Little birds pitch by my doorstep",
+		  				"company_id": "1221HGhjg1F2G112122"
+		  			}
+	}]
+}
