@@ -1,17 +1,18 @@
 package controllers
 
 import play.api._
+import play.api.libs.json._
+import play.api.libs.json.Json._
 import play.api.mvc._
 import play.api.data._
 import play.api.data.Forms._
-
 import anorm._
-
 import views._
 import models._
-
 import com.mongodb.casbah.Imports._
 import models.form.format.FormatsObjectId._
+import models.json.ComputerJsonFormat
+import java.text.SimpleDateFormat
 
 /**
  * Manage a database of computers
@@ -35,9 +36,7 @@ object Application extends Controller {
       "name" -> nonEmptyText,
       "introduced" -> optional( date( "yyyy-MM-dd" ) ),
       "discontinued" -> optional( date( "yyyy-MM-dd" ) ),
-      "company" -> optional( objectId ) )
-      ( Computer.apply )
-      ( Computer.unapply ) )
+      "company" -> optional( objectId ) )( Computer.apply )( Computer.unapply ) )
 
   // -- Actions
 
@@ -54,10 +53,25 @@ object Application extends Controller {
    * @param filter Filter applied on computer names
    */
   def list( page: Int, orderBy: Int, filter: String ) = Action { implicit request =>
-
     Ok( html.list(
       ComputerDAO.list( page = page, orderBy = orderBy, filter = filter ),
       orderBy, filter ) )
+  }
+  def jsonList( page: Int, orderBy: Int, filter: String ) = Action {
+    val requestResults = ComputerDAO.jsonListWithCount( page = page, orderBy = orderBy, filter = filter )
+    val resultsCount = requestResults._1
+    val computerCompanyTuples = requestResults._2
+    val dateFromatter = new SimpleDateFormat( "dd-M-yyyy" )
+    Ok( toJson( JsObject( List(
+      "total" -> JsNumber( resultsCount ),
+      "currentPage" -> JsNumber( page ),
+      "computers" -> JsArray(
+        computerCompanyTuples.map( tuple => JsObject( List(
+          "_id" -> JsString( tuple._1._id.toString ),
+          "name" -> JsString( tuple._1.name ),
+          "introduced" -> JsString( tuple._1.introduced.map( date => dateFromatter.format( date ) ).getOrElse( "" ) ),
+          "discontinued" -> JsString( tuple._1.discontinued.map( date => dateFromatter.format( date ) ) getOrElse ( "" ) ),
+          "company" -> JsString( tuple._2.map( company => company.name ).getOrElse( "" ) ) ) ) ) ) ) ) ) )
   }
 
   /**
@@ -80,7 +94,7 @@ object Application extends Controller {
     computerForm.bindFromRequest.fold(
       formWithErrors => BadRequest( html.editForm( id, keepPage, formWithErrors ) ),
       computer => {
-        ComputerDAO.save(Computer.compose(id,computer))
+        ComputerDAO.save( Computer.compose( id, computer ) )
         Redirect( routes.Application.list( keepPage, 2, "" ) ).flashing(
           "success" -> "Computer %s has been updated".format( computer.name ),
           "updatedId" -> id.toString )
@@ -110,7 +124,7 @@ object Application extends Controller {
    * Handle computer deletion.
    */
   def delete( id: String ) = Action {
-    ComputerDAO.removeById(new ObjectId(id))
+    ComputerDAO.removeById( new ObjectId( id ) )
     Home.flashing( "success" -> "Computer has been deleted" )
   }
 

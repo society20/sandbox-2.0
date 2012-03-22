@@ -99,7 +99,7 @@
                     </li>
                 }
                 <li class="current">
-                    <a>Displaying @(currentPage.offset + 1) to @(currentPage.offset + computers.size) of @currentPage.total</a>
+                    <a>Displaying <span id="offset">@(currentPage.offset + 1)</span> to <span id="offsetUpperbound">@(currentPage.offset + computers.size)</span> of <span id="total">@currentPage.total</span></a>
                 </li>
                 @currentPage.next.map { page =>
                     <li class="next" id="next">

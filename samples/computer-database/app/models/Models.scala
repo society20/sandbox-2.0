@@ -16,7 +16,7 @@ case class Computer( _id: ObjectId, name: String, introduced: Option[Date], disc
 
 object Computer {
   def compose( id: String, computer: Computer ): Computer = {
-    new Computer( new ObjectId(id), computer.name, computer.introduced, computer.discontinued, computer.company_id )
+    new Computer( new ObjectId( id ), computer.name, computer.introduced, computer.discontinued, computer.company_id )
   }
 }
 
@@ -53,6 +53,24 @@ object ComputerDAO extends SalatDAO[Computer, ObjectId]( collection = MongoConne
       ( seq, computer ) => seq :+ ( computer, CompanyDAO.getCompany( computer ) ) ) // TODO : query the db for company
 
     Page( computersCompanySeq, page, offset, all.count )
+  }
+
+  def jsonListWithCount( page: Int = 0, pageSize: Int = 10, orderBy: Int = 1, filter: String = "" ): ( Int, Seq[( Computer, Option[Company] )] ) = {
+    val offset = page * pageSize
+    val regex = Pattern.compile( filter, Pattern.CASE_INSENSITIVE )
+    val query = MongoDBObject( "name" -> regex )
+    val all = find( query )
+    val count = all.count
+    val results = all
+      .skip( offset )
+      .limit( pageSize )
+      .sort( MongoDBObject( geSort( orderBy ) ) )
+    (
+      count,
+      results.foldLeft( Seq.empty[( Computer, Option[Company] )] )(
+        ( seq, computer ) => seq :+ ( computer, CompanyDAO.getCompany( computer ) ) )
+
+    )
   }
   def findById( id: String ): Option[Computer] = {
     findOneByID( new ObjectId( id ) )

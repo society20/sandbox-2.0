@@ -7,7 +7,8 @@ GET     /                           controllers.Application.index
 
 # Computers list (look at the default values for pagination parameters)
 GET     /computers                  controllers.Application.list(p:Int ?= 0, s:Int ?= 2, f ?= "")
-GET     /computers/                  controllers.Application.list(p:Int ?= 0, s:Int ?= 2, f ?= "")
+GET     /computers/                 controllers.Application.list(p:Int ?= 0, s:Int ?= 2, f ?= "")
+GET     /json                       controllers.Application.jsonList(p:Int ?= 0, s:Int ?= 2, f ?= "")
 
 # Add computer
 GET     /computers/new              controllers.Application.create
@@ -17,8 +18,8 @@ POST    /computers                  controllers.Application.save
 POST    /computers/:id/delete       controllers.Application.delete(id:String)
 
 # Edit existing computer
-GET     /computers/:id/:keepPage             controllers.Application.edit(id:String, keepPage:Int)
-POST    /computers/:id/:keepPage             controllers.Application.update(id:String, keepPage: Int)
+GET     /computers/:id/:keepPage    controllers.Application.edit(id:String, keepPage:Int)
+POST    /computers/:id/:keepPage    controllers.Application.update(id:String, keepPage: Int)
 
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.at(path="/public", file)
