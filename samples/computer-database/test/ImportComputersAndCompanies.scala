@@ -48,13 +48,13 @@ object ImportComputersAndCompanies {
 
       if (rawIntroduced != "null") {
 
-        val introduced = rawIntroduced.substring(1, rawIntroduced.length - 1);
+        val introduced = rawIntroduced;
         val date = formatter.parse(introduced)
         onePc += "introduced" -> date
       }
 
       if (rawDiscontinued != "null") {
-        val discontinued = rawDiscontinued.substring(1, rawDiscontinued.length - 1);
+        val discontinued = rawDiscontinued;
         val date = formatter.parse(discontinued)
       }
 
@@ -62,7 +62,7 @@ object ImportComputersAndCompanies {
         val oid = companyMap(companyId)
         onePc += "company_id" -> oid
       }
-      
+
       val mongoEntry = onePc.result()
       computersColl.insert(mongoEntry)
       println(mongoEntry)
