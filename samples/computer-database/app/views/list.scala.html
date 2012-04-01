@@ -67,8 +67,8 @@
                         <tr @updatedId match {
 							    case Some(id) if(id == computer._id.toString)=> {BGCOLOR="#99CCFF"}
 							    case _ => {}
-							  } >
-                            <td><a href="@routes.Application.edit(computer._id.toString, currentPage.page)">
+							  } id="@computer._id.toString">
+                            <td><a id="@computer._id.toString" forEdit="yes" href="@routes.Application.edit(computer._id.toString, currentPage.page)">
                             
 							  @computer.name</a></td>
                             <td>

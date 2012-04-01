@@ -1,24 +1,33 @@
 package controllers
 
+//play core
 import play.api._
 import play.api.libs.json._
 import play.api.libs.json.Json._
 import play.api.mvc._
 import play.api.data._
 import play.api.data.Forms._
-import anorm._
+
+//app
 import views._
 import models._
-import com.mongodb.casbah.Imports._
+
+//app utils
 import models.form.format.FormatsObjectId._
-import models.json.ComputerJsonFormat
+import models.json.ComputerJsonFormat._
+
+//java
 import java.text.SimpleDateFormat
+
+//casbah
+import com.mongodb.casbah.Imports._
 
 /**
  * Manage a database of computers
  */
 object Application extends Controller {
 
+  val dateFormatter = new SimpleDateFormat( "dd MMM yyyy" )
   /**
    * This result directly redirect to the application home.
    */
@@ -57,21 +66,34 @@ object Application extends Controller {
       ComputerDAO.list( page = page, orderBy = orderBy, filter = filter ),
       orderBy, filter ) )
   }
+
   def jsonList( page: Int, orderBy: Int, filter: String ) = Action {
-    val requestResults = ComputerDAO.jsonListWithCount( page = page, orderBy = orderBy, filter = filter )
-    val resultsCount = requestResults._1
-    val computerCompanyTuples = requestResults._2
-    val dateFromatter = new SimpleDateFormat( "dd-M-yyyy" )
+
+    val results = ComputerDAO.jsonListWithCount( page = page, orderBy = orderBy, filter = filter )
+
+    val resultSize = results._1
+    val computerCompanyTuples = results._2
+
     Ok( toJson( JsObject( List(
-      "total" -> JsNumber( resultsCount ),
+      "total" -> JsNumber( resultSize ),
       "currentPage" -> JsNumber( page ),
       "computers" -> JsArray(
         computerCompanyTuples.map( tuple => JsObject( List(
           "_id" -> JsString( tuple._1._id.toString ),
           "name" -> JsString( tuple._1.name ),
-          "introduced" -> JsString( tuple._1.introduced.map( date => dateFromatter.format( date ) ).getOrElse( "" ) ),
-          "discontinued" -> JsString( tuple._1.discontinued.map( date => dateFromatter.format( date ) ) getOrElse ( "" ) ),
+          "introduced" -> JsString( tuple._1.introduced.map( date => dateFormatter.format( date ) ).getOrElse( "-" ) ),
+          "discontinued" -> JsString( tuple._1.discontinued.map( date => dateFormatter.format( date ) ) getOrElse ( "-" ) ),
           "company" -> JsString( tuple._2.map( company => company.name ).getOrElse( "" ) ) ) ) ) ) ) ) ) )
+  }
+
+  /**
+   * Retrieves a single computer by an id and returns it in Json format.
+   */
+  def jsonOne( id: String ) = Action {
+
+    ComputerDAO.findById( id ).map {
+      computer => Ok( toJson( computer ) )
+    }.getOrElse( NotFound )
   }
 
   /**
@@ -99,6 +121,22 @@ object Application extends Controller {
           "success" -> "Computer %s has been updated".format( computer.name ),
           "updatedId" -> id.toString )
       } )
+  }
+
+  /**
+   * Edits a computer sent in Json format.
+   */
+  def jsonUpdate( id: String ) = Action( parse.json ) { request =>
+
+    val computerFromClient: Computer = fromJson( request.body )
+
+    //what about validation??
+
+    ComputerDAO.findOneByID( computerFromClient._id ).map {
+      foundComputer =>
+        ComputerDAO.save( computerFromClient )
+        Ok( toJson( computerFromClient ) )
+    }.getOrElse( NotFound( "Unable to update the computer because it doesn't exist anymore." ) )
   }
 
   /**
