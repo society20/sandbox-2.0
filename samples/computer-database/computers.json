@@ -1,0 +1,574 @@
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e289" }, "name" : "MacBook Pro 15.4 inch", "company" : { "name" : "Apple Inc.", "_id" : { "$oid" : "4f817c9ce837a77dbe51e25f" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e28a" }, "name" : "CM-2a", "company" : { "name" : "Thinking Machines", "_id" : { "$oid" : "4f817c9ce837a77dbe51e260" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e28b" }, "name" : "CM-200", "company" : { "name" : "Thinking Machines", "_id" : { "$oid" : "4f817c9ce837a77dbe51e260" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e28c" }, "name" : "CM-5e", "company" : { "name" : "Thinking Machines", "_id" : { "$oid" : "4f817c9ce837a77dbe51e260" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e28d" }, "name" : "CM-5", "introduced" : { "$date" : 662684400000 }, "company" : { "name" : "Thinking Machines", "_id" : { "$oid" : "4f817c9ce837a77dbe51e260" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e28e" }, "name" : "MacBook Pro", "introduced" : { "$date" : 1136847600000 }, "company" : { "name" : "Apple Inc.", "_id" : { "$oid" : "4f817c9ce837a77dbe51e25f" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e28f" }, "name" : "Apple IIe", "company" : { "name" : "Apple Inc.", "_id" : { "$oid" : "4f817c9ce837a77dbe51e25f" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e290" }, "name" : "Apple IIc", "company" : { "name" : "Apple Inc.", "_id" : { "$oid" : "4f817c9ce837a77dbe51e25f" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e291" }, "name" : "Apple IIGS", "company" : { "name" : "Apple Inc.", "_id" : { "$oid" : "4f817c9ce837a77dbe51e25f" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e292" }, "name" : "Apple IIc Plus", "company" : { "name" : "Apple Inc.", "_id" : { "$oid" : "4f817c9ce837a77dbe51e25f" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e293" }, "name" : "Apple II Plus", "company" : { "name" : "Apple Inc.", "_id" : { "$oid" : "4f817c9ce837a77dbe51e25f" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e294" }, "name" : "Apple III", "introduced" : { "$date" : 325980000000 }, "company" : { "name" : "Apple Inc.", "_id" : { "$oid" : "4f817c9ce837a77dbe51e25f" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e295" }, "name" : "Apple Lisa", "company" : { "name" : "Apple Inc.", "_id" : { "$oid" : "4f817c9ce837a77dbe51e25f" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e296" }, "name" : "CM-2", "company" : { "name" : "Thinking Machines", "_id" : { "$oid" : "4f817c9ce837a77dbe51e260" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e297" }, "name" : "Connection Machine", "introduced" : { "$date" : 536454000000 }, "company" : { "name" : "Thinking Machines", "_id" : { "$oid" : "4f817c9ce837a77dbe51e260" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e298" }, "name" : "Apple II", "introduced" : { "$date" : 228697200000 }, "company" : { "name" : "Apple Inc.", "_id" : { "$oid" : "4f817c9ce837a77dbe51e25f" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e299" }, "name" : "Apple III Plus", "introduced" : { "$date" : 439081200000 }, "company" : { "name" : "Apple Inc.", "_id" : { "$oid" : "4f817c9ce837a77dbe51e25f" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e29a" }, "name" : "COSMAC ELF", "company" : { "name" : "RCA", "_id" : { "$oid" : "4f817c9ce837a77dbe51e261" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e29b" }, "name" : "COSMAC VIP", "introduced" : { "$date" : 220921200000 }, "company" : { "name" : "RCA", "_id" : { "$oid" : "4f817c9ce837a77dbe51e261" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e29c" }, "name" : "ELF II", "introduced" : { "$date" : 220921200000 }, "company" : { "name" : "Netronics", "_id" : { "$oid" : "4f817c9ce837a77dbe51e262" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e29d" }, "name" : "Macintosh", "introduced" : { "$date" : 443746800000 }, "company" : { "name" : "Apple Inc.", "_id" : { "$oid" : "4f817c9ce837a77dbe51e25f" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e29e" }, "name" : "Macintosh II" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e29f" }, "name" : "Macintosh Plus", "introduced" : { "$date" : 506214000000 }, "company" : { "name" : "Apple Inc.", "_id" : { "$oid" : "4f817c9ce837a77dbe51e25f" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2a0" }, "name" : "Macintosh IIfx" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2a1" }, "name" : "iMac", "introduced" : { "$date" : 883609200000 }, "company" : { "name" : "Apple Inc.", "_id" : { "$oid" : "4f817c9ce837a77dbe51e25f" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2a2" }, "name" : "Mac Mini", "introduced" : { "$date" : 1106348400000 }, "company" : { "name" : "Apple Inc.", "_id" : { "$oid" : "4f817c9ce837a77dbe51e25f" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2a3" }, "name" : "Mac Pro", "introduced" : { "$date" : 1154901600000 }, "company" : { "name" : "Apple Inc.", "_id" : { "$oid" : "4f817c9ce837a77dbe51e25f" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2a4" }, "name" : "Power Macintosh", "introduced" : { "$date" : 762476400000 }, "company" : { "name" : "Apple Inc.", "_id" : { "$oid" : "4f817c9ce837a77dbe51e25f" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2a5" }, "name" : "PowerBook", "introduced" : { "$date" : 662684400000 }, "company" : { "name" : "Apple Inc.", "_id" : { "$oid" : "4f817c9ce837a77dbe51e25f" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2a6" }, "name" : "Xserve" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2a7" }, "name" : "Powerbook 100" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2a8" }, "name" : "Powerbook 140" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2a9" }, "name" : "Powerbook 170" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2aa" }, "name" : "PowerBook Duo" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2ab" }, "name" : "PowerBook 190" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2ac" }, "name" : "Macintosh Quadra", "introduced" : { "$date" : 662684400000 }, "company" : { "name" : "Apple Inc.", "_id" : { "$oid" : "4f817c9ce837a77dbe51e25f" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2ad" }, "name" : "Macintosh Quadra 900" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2ae" }, "name" : "Macintosh Quadra 700" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2af" }, "name" : "Macintosh LC", "introduced" : { "$date" : 631148400000 }, "company" : { "name" : "Apple Inc.", "_id" : { "$oid" : "4f817c9ce837a77dbe51e25f" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2b0" }, "name" : "Macintosh LC II", "introduced" : { "$date" : 631148400000 }, "company" : { "name" : "Apple Inc.", "_id" : { "$oid" : "4f817c9ce837a77dbe51e25f" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2b1" }, "name" : "Macintosh LC III", "introduced" : { "$date" : 725842800000 }, "company" : { "name" : "Apple Inc.", "_id" : { "$oid" : "4f817c9ce837a77dbe51e25f" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2b2" }, "name" : "Macintosh LC III+" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2b3" }, "name" : "Macintosh Quadra 605", "introduced" : { "$date" : 751158000000 }, "company" : { "name" : "Apple Inc.", "_id" : { "$oid" : "4f817c9ce837a77dbe51e25f" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2b4" }, "name" : "Macintosh LC 500 series" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2b5" }, "name" : "TRS-80 Color Computer", "introduced" : { "$date" : 315529200000 }, "company" : { "name" : "Tandy Corporation", "_id" : { "$oid" : "4f817c9ce837a77dbe51e263" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2b6" }, "name" : "Acorn System 2" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2b7" }, "name" : "Dragon 32/64" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2b8" }, "name" : "MEK6800D2" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2b9" }, "name" : "Newbear 77/68" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2ba" }, "name" : "Commodore PET", "company" : { "name" : "Commodore International", "_id" : { "$oid" : "4f817c9ce837a77dbe51e264" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2bb" }, "name" : "Commodore 64", "introduced" : { "$date" : 397000800000 }, "company" : { "name" : "Commodore International", "_id" : { "$oid" : "4f817c9ce837a77dbe51e264" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2bc" }, "name" : "Commodore 64C" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2bd" }, "name" : "Commodore SX-64", "company" : { "name" : "Commodore International", "_id" : { "$oid" : "4f817c9ce837a77dbe51e264" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2be" }, "name" : "Commodore 128", "company" : { "name" : "Commodore International", "_id" : { "$oid" : "4f817c9ce837a77dbe51e264" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2bf" }, "name" : "Apple I", "introduced" : { "$date" : 197157600000 }, "company" : { "name" : "Apple Inc.", "_id" : { "$oid" : "4f817c9ce837a77dbe51e25f" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2c0" }, "name" : "KIM-1", "introduced" : { "$date" : 157762800000 }, "company" : { "name" : "MOS Technology", "_id" : { "$oid" : "4f817c9ce837a77dbe51e265" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2c1" }, "name" : "Altair 8800", "introduced" : { "$date" : 156639600000 }, "company" : { "name" : "Micro Instrumentation and Telemetry Systems", "_id" : { "$oid" : "4f817c9ce837a77dbe51e266" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2c2" }, "name" : "IMSAI 8080", "introduced" : { "$date" : 176079600000 }, "company" : { "name" : "IMS Associates", "_id" : { "$oid" : "4f817c9ce837a77dbe51e267" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2c3" }, "name" : "IMSAI Series Two" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2c4" }, "name" : "VAX", "introduced" : { "$date" : 246582000000 }, "company" : { "name" : "Digital Equipment Corporation", "_id" : { "$oid" : "4f817c9ce837a77dbe51e268" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2c5" }, "name" : "VAX 11/780", "introduced" : { "$date" : 246582000000 }, "company" : { "name" : "Digital Equipment Corporation", "_id" : { "$oid" : "4f817c9ce837a77dbe51e268" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2c6" }, "name" : "VAX 11/750", "introduced" : { "$date" : 339202800000 }, "company" : { "name" : "Digital Equipment Corporation", "_id" : { "$oid" : "4f817c9ce837a77dbe51e268" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2c7" }, "name" : "TX-2", "introduced" : { "$date" : 18446743695014751616 }, "company" : { "name" : "Lincoln Laboratory", "_id" : { "$oid" : "4f817c9ce837a77dbe51e269" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2c8" }, "name" : "TX-0", "introduced" : { "$date" : 18446743631856351616 }, "company" : { "name" : "Lincoln Laboratory", "_id" : { "$oid" : "4f817c9ce837a77dbe51e269" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2c9" }, "name" : "Whirlwind", "introduced" : { "$date" : 18446743483507551616 }, "company" : { "name" : "Lincoln Laboratory", "_id" : { "$oid" : "4f817c9ce837a77dbe51e269" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2ca" }, "name" : "ENIAC", "introduced" : { "$date" : 18446743320211551616 }, "company" : { "name" : "Moore School of Electrical Engineering", "_id" : { "$oid" : "4f817c9ce837a77dbe51e26a" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2cb" }, "name" : "IBM PC", "introduced" : { "$date" : 366415200000 }, "company" : { "name" : "IBM", "_id" : { "$oid" : "4f817c9ce837a77dbe51e26b" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2cc" }, "name" : "Macintosh Classic" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2cd" }, "name" : "Macintosh Classic II", "introduced" : { "$date" : 662684400000 }, "company" : { "name" : "Apple Inc.", "_id" : { "$oid" : "4f817c9ce837a77dbe51e25f" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2ce" }, "name" : "Amiga", "introduced" : { "$date" : 473382000000 }, "company" : { "name" : "Amiga Corporation", "_id" : { "$oid" : "4f817c9ce837a77dbe51e26c" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2cf" }, "name" : "Amiga 1000", "company" : { "name" : "Commodore International", "_id" : { "$oid" : "4f817c9ce837a77dbe51e264" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2d0" }, "name" : "Amiga 500", "introduced" : { "$date" : 536454000000 }, "company" : { "name" : "Commodore International", "_id" : { "$oid" : "4f817c9ce837a77dbe51e264" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2d1" }, "name" : "Amiga 500+" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2d2" }, "name" : "Amiga 2000", "introduced" : { "$date" : 504918000000 }, "company" : { "name" : "Commodore International", "_id" : { "$oid" : "4f817c9ce837a77dbe51e264" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2d3" }, "name" : "Amiga 3000", "company" : { "name" : "Commodore International", "_id" : { "$oid" : "4f817c9ce837a77dbe51e264" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2d4" }, "name" : "Amiga 600", "introduced" : { "$date" : 699404400000 }, "company" : { "name" : "Commodore International", "_id" : { "$oid" : "4f817c9ce837a77dbe51e264" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2d5" }, "name" : "Macintosh 128K", "introduced" : { "$date" : 441759600000 }, "company" : { "name" : "Apple Inc.", "_id" : { "$oid" : "4f817c9ce837a77dbe51e25f" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2d6" }, "name" : "Macintosh 512K", "introduced" : { "$date" : 463615200000 }, "company" : { "name" : "Apple Inc.", "_id" : { "$oid" : "4f817c9ce837a77dbe51e25f" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2d7" }, "name" : "Macintosh SE", "introduced" : { "$date" : 541638000000 }, "company" : { "name" : "Apple Inc.", "_id" : { "$oid" : "4f817c9ce837a77dbe51e25f" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2d8" }, "name" : "Macintosh SE/30", "introduced" : { "$date" : 601167600000 }, "company" : { "name" : "Apple Inc.", "_id" : { "$oid" : "4f817c9ce837a77dbe51e25f" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2d9" }, "name" : "Canon Cat", "introduced" : { "$date" : 536454000000 }, "company" : { "name" : "Canon", "_id" : { "$oid" : "4f817c9ce837a77dbe51e26d" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2da" }, "name" : "Nokia 770", "company" : { "name" : "Nokia", "_id" : { "$oid" : "4f817c9ce837a77dbe51e26e" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2db" }, "name" : "Nokia N800", "introduced" : { "$date" : 1167606000000 }, "company" : { "name" : "Nokia", "_id" : { "$oid" : "4f817c9ce837a77dbe51e26e" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2dc" }, "name" : "Mylo", "introduced" : { "$date" : 1158789600000 }, "company" : { "name" : "Sony", "_id" : { "$oid" : "4f817c9ce837a77dbe51e26f" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2dd" }, "name" : "OQO 02", "introduced" : { "$date" : 1167606000000 }, "company" : { "name" : "OQO", "_id" : { "$oid" : "4f817c9ce837a77dbe51e270" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2de" }, "name" : "OQO 01+" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2df" }, "name" : "Pinwheel calculator" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2e0" }, "name" : "iBook", "company" : { "name" : "Apple Inc.", "_id" : { "$oid" : "4f817c9ce837a77dbe51e25f" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2e1" }, "name" : "MacBook", "introduced" : { "$date" : 1147730400000 }, "company" : { "name" : "Apple Inc.", "_id" : { "$oid" : "4f817c9ce837a77dbe51e25f" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2e2" }, "name" : "NeXTstation", "introduced" : { "$date" : 631148400000 }, "company" : { "name" : "NeXT", "_id" : { "$oid" : "4f817c9ce837a77dbe51e271" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2e3" }, "name" : "NeXTcube", "introduced" : { "$date" : 567990000000 }, "company" : { "name" : "NeXT", "_id" : { "$oid" : "4f817c9ce837a77dbe51e271" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2e4" }, "name" : "NeXTstation Color Turbo" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2e5" }, "name" : "NeXTstation Color" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2e6" }, "name" : "NeXTstation Turbo" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2e7" }, "name" : "NeXTcube Turbo", "company" : { "name" : "NeXT", "_id" : { "$oid" : "4f817c9ce837a77dbe51e271" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2e8" }, "name" : "NeXTcube 040", "company" : { "name" : "NeXT", "_id" : { "$oid" : "4f817c9ce837a77dbe51e271" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2e9" }, "name" : "NeXTcube 030", "company" : { "name" : "NeXT", "_id" : { "$oid" : "4f817c9ce837a77dbe51e271" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2ea" }, "name" : "Tinkertoy Tic-Tac-Toe Computer" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2eb" }, "name" : "Z3" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2ec" }, "name" : "Z4" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2ed" }, "name" : "Z1" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2ee" }, "name" : "Z2" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2ef" }, "name" : "Wang 2200", "introduced" : { "$date" : 105058800000 } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2f0" }, "name" : "Wang VS" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2f1" }, "name" : "Wang OIS" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2f2" }, "name" : "BBC Micro", "company" : { "name" : "Acorn computer", "_id" : { "$oid" : "4f817c9ce837a77dbe51e273" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2f3" }, "name" : "IBM 650", "introduced" : { "$date" : 18446743537248351616 }, "company" : { "name" : "IBM", "_id" : { "$oid" : "4f817c9ce837a77dbe51e26b" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2f4" }, "name" : "Cray-1" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2f5" }, "name" : "Cray-3" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2f6" }, "name" : "Cray-2" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2f7" }, "name" : "Cray-4" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2f8" }, "name" : "Cray X1" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2f9" }, "name" : "Cray XD1" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2fa" }, "name" : "Cray T3D", "introduced" : { "$date" : 725842800000 } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2fb" }, "name" : "Cray T3E", "introduced" : { "$date" : 788914800000 } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2fc" }, "name" : "Cray C90" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2fd" }, "name" : "Cray T90" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2fe" }, "name" : "Cray SV1" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e2ff" }, "name" : "Cray J90" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e300" }, "name" : "Cray XT3" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e301" }, "name" : "Cray CS6400" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e302" }, "name" : "Atari ST", "introduced" : { "$date" : 473382000000 }, "company" : { "name" : "Atari", "_id" : { "$oid" : "4f817c9ce837a77dbe51e272" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e303" }, "name" : "Amiga 2500" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e304" }, "name" : "Amiga 2500", "company" : { "name" : "Commodore International", "_id" : { "$oid" : "4f817c9ce837a77dbe51e264" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e305" }, "name" : "Amiga 4000", "company" : { "name" : "Commodore International", "_id" : { "$oid" : "4f817c9ce837a77dbe51e264" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e306" }, "name" : "Amiga 3000UX", "company" : { "name" : "Commodore International", "_id" : { "$oid" : "4f817c9ce837a77dbe51e264" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e307" }, "name" : "Amiga 3000T", "company" : { "name" : "Commodore International", "_id" : { "$oid" : "4f817c9ce837a77dbe51e264" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e308" }, "name" : "Amiga 4000T", "company" : { "name" : "Commodore International", "_id" : { "$oid" : "4f817c9ce837a77dbe51e264" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e309" }, "name" : "Amiga 1200", "introduced" : { "$date" : 717894000000 }, "company" : { "name" : "Commodore International", "_id" : { "$oid" : "4f817c9ce837a77dbe51e264" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e30a" }, "name" : "Atari 1040 STf", "introduced" : { "$date" : 504918000000 } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e30b" }, "name" : "Atari 520 ST", "introduced" : { "$date" : 473382000000 } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e30c" }, "name" : "Atari 520 STfm", "introduced" : { "$date" : 504918000000 } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e30d" }, "name" : "Atari 1040 STe", "introduced" : { "$date" : 599612400000 } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e30e" }, "name" : "Atari MEGA STe", "introduced" : { "$date" : 662684400000 } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e30f" }, "name" : "Atari 520 ST+", "introduced" : { "$date" : 473382000000 } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e310" }, "name" : "Atari 520 STm", "introduced" : { "$date" : 473382000000 } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e311" }, "name" : "Atari 130 ST", "introduced" : { "$date" : 473382000000 } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e312" }, "name" : "Atari 260 ST", "introduced" : { "$date" : 473382000000 } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e313" }, "name" : "Atari MEGA ST", "introduced" : { "$date" : 536454000000 } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e314" }, "name" : "Atari 520 STf", "introduced" : { "$date" : 504918000000 } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e315" }, "name" : "Atari 1040 STfm", "introduced" : { "$date" : 504918000000 } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e316" }, "name" : "Atari 2080 ST", "introduced" : { "$date" : 504918000000 } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e317" }, "name" : "Atari 260 ST+", "introduced" : { "$date" : 473382000000 } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e318" }, "name" : "Atari 4160 STe", "introduced" : { "$date" : 567990000000 } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e319" }, "name" : "TRS-80 Color Computer 2" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e31a" }, "name" : "TRS-80 Color Computer 3" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e31b" }, "name" : "TRS-80 Model 1", "introduced" : { "$date" : 220921200000 }, "company" : { "name" : "Tandy Corporation", "_id" : { "$oid" : "4f817c9ce837a77dbe51e263" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e31c" }, "name" : "Timex Sinclair 2068", "introduced" : { "$date" : 436489200000 }, "company" : { "name" : "Timex Sinclair", "_id" : { "$oid" : "4f817c9ce837a77dbe51e274" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e31d" }, "name" : "ZX Spectrum", "introduced" : { "$date" : 378687600000 }, "company" : { "name" : "Sinclair Research Ltd", "_id" : { "$oid" : "4f817c9ce837a77dbe51e276" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e31e" }, "name" : "Xerox Star", "introduced" : { "$date" : 347151600000 }, "company" : { "name" : "Xerox", "_id" : { "$oid" : "4f817c9ce837a77dbe51e277" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e31f" }, "name" : "Xerox Alto" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e320" }, "name" : "Acorn Archimedes", "company" : { "name" : "Acorn computer", "_id" : { "$oid" : "4f817c9ce837a77dbe51e273" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e321" }, "name" : "Nintendo Entertainment System", "company" : { "name" : "Nintendo", "_id" : { "$oid" : "4f817c9ce837a77dbe51e275" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e322" }, "name" : "Super Nintendo Entertainment System", "introduced" : { "$date" : 680997600000 }, "company" : { "name" : "Nintendo", "_id" : { "$oid" : "4f817c9ce837a77dbe51e275" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e323" }, "name" : "Super Famicom" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e324" }, "name" : "Nintendo GameCube", "company" : { "name" : "Nintendo", "_id" : { "$oid" : "4f817c9ce837a77dbe51e275" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e325" }, "name" : "Game Boy line" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e326" }, "name" : "PlayStation", "introduced" : { "$date" : 786409200000 }, "company" : { "name" : "Sony", "_id" : { "$oid" : "4f817c9ce837a77dbe51e26f" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e327" }, "name" : "PlayStation 2", "introduced" : { "$date" : 953852400000 }, "company" : { "name" : "Sony", "_id" : { "$oid" : "4f817c9ce837a77dbe51e26f" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e328" }, "name" : "Game & Watch", "company" : { "name" : "Nintendo", "_id" : { "$oid" : "4f817c9ce837a77dbe51e275" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e329" }, "name" : "EDSAC" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e32a" }, "name" : "IBM System/4 Pi" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e32b" }, "name" : "IBM AP-101" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e32c" }, "name" : "IBM TC-1" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e32d" }, "name" : "IBM AP-101B" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e32e" }, "name" : "IBM AP-101S", "company" : { "name" : "IBM", "_id" : { "$oid" : "4f817c9ce837a77dbe51e26b" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e32f" }, "name" : "ProLiant", "company" : { "name" : "Hewlett-Packard", "_id" : { "$oid" : "4f817c9ce837a77dbe51e278" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e330" }, "name" : "Http://nepomuk.semanticdesktop.org/xwiki/" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e331" }, "name" : "Sinclair QL", "introduced" : { "$date" : 441759600000 }, "company" : { "name" : "Sinclair Research Ltd", "_id" : { "$oid" : "4f817c9ce837a77dbe51e276" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e332" }, "name" : "Sinclair ZX81", "introduced" : { "$date" : 347151600000 }, "company" : { "name" : "Sinclair Research Ltd", "_id" : { "$oid" : "4f817c9ce837a77dbe51e276" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e333" }, "name" : "Sinclair ZX80", "company" : { "name" : "Sinclair Research Ltd", "_id" : { "$oid" : "4f817c9ce837a77dbe51e276" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e334" }, "name" : "Atari 65XE", "company" : { "name" : "Atari", "_id" : { "$oid" : "4f817c9ce837a77dbe51e272" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e335" }, "name" : "Deep Blue" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e336" }, "name" : "Macintosh Quadra 650" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e337" }, "name" : "Macintosh Quadra 610" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e338" }, "name" : "Macintosh Quadra 800" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e339" }, "name" : "Macintosh Quadra 950" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e33a" }, "name" : "PowerBook 160" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e33b" }, "name" : "PowerBook 145B" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e33c" }, "name" : "PowerBook 170" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e33d" }, "name" : "PowerBook 145" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e33e" }, "name" : "PowerBook G3" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e33f" }, "name" : "PowerBook 140" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e340" }, "name" : "Macintosh IIcx" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e341" }, "name" : "Powerbook 180" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e342" }, "name" : "PowerBook G4" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e343" }, "name" : "Macintosh XL" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e344" }, "name" : "PowerBook 100" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e345" }, "name" : "PowerBook 2400c" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e346" }, "name" : "PowerBook 1400" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e347" }, "name" : "Macintosh Quadra 630" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e348" }, "name" : "Macintosh Quadra 660AV" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e349" }, "name" : "Macintosh Quadra 840AV" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e34a" }, "name" : "PowerBook 5300" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e34b" }, "name" : "PowerBook 3400c" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e34c" }, "name" : "Macintosh Color Classic" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e34d" }, "name" : "Macintosh 512Ke" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e34e" }, "name" : "Macintosh IIsi" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e34f" }, "name" : "Macintosh IIx" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e350" }, "name" : "PowerBook 500 series" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e351" }, "name" : "Power Macintosh G3" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e352" }, "name" : "Macintosh IIci" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e353" }, "name" : "iMac G5", "introduced" : { "$date" : 1093903200000 }, "company" : { "name" : "Apple Inc.", "_id" : { "$oid" : "4f817c9ce837a77dbe51e25f" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e354" }, "name" : "Power Mac G4" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e355" }, "name" : "Power Macintosh 7100" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e356" }, "name" : "Power Macintosh 9600" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e357" }, "name" : "Power Macintosh 7200" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e358" }, "name" : "Power Macintosh 7300" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e359" }, "name" : "Power Macintosh 8600" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e35a" }, "name" : "Power Macintosh 6200" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e35b" }, "name" : "Power Macintosh 8100" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e35c" }, "name" : "Compact Macintosh" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e35d" }, "name" : "Power Macintosh 4400" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e35e" }, "name" : "Power Macintosh 9500" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e35f" }, "name" : "Macintosh Portable" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e360" }, "name" : "EMac" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e361" }, "name" : "Power Macintosh 7600" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e362" }, "name" : "Power Mac G5" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e363" }, "name" : "Power Macintosh 7500" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e364" }, "name" : "Power Macintosh 6100" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e365" }, "name" : "Power Macintosh 8500" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e366" }, "name" : "Macintosh IIvi" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e367" }, "name" : "Macintosh IIvx" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e368" }, "name" : "IMac G3" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e369" }, "name" : "IMac G4" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e36a" }, "name" : "Power Mac G4 Cube", "company" : { "name" : "Apple Inc.", "_id" : { "$oid" : "4f817c9ce837a77dbe51e25f" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e36b" }, "name" : "Intel iMac" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e36c" }, "name" : "Deep Thought", "company" : { "name" : "IBM", "_id" : { "$oid" : "4f817c9ce837a77dbe51e26b" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e36d" }, "name" : "Wii", "introduced" : { "$date" : 1163890800000 }, "company" : { "name" : "Nintendo", "_id" : { "$oid" : "4f817c9ce837a77dbe51e275" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e36e" }, "name" : "IBM System x" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e36f" }, "name" : "IBM System i", "introduced" : { "$date" : 1136070000000 }, "company" : { "name" : "IBM", "_id" : { "$oid" : "4f817c9ce837a77dbe51e26b" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e370" }, "name" : "IBM System z", "introduced" : { "$date" : 1136070000000 }, "company" : { "name" : "IBM", "_id" : { "$oid" : "4f817c9ce837a77dbe51e26b" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e371" }, "name" : "IBM System p", "introduced" : { "$date" : 946681200000 }, "company" : { "name" : "IBM", "_id" : { "$oid" : "4f817c9ce837a77dbe51e26b" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e372" }, "name" : "LC 575" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e373" }, "name" : "Macintosh TV" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e374" }, "name" : "Macintosh Performa" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e375" }, "name" : "Macintosh II series" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e376" }, "name" : "Power Macintosh 6400" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e377" }, "name" : "Power Macintosh 6500" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e378" }, "name" : "Apple PenLite" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e379" }, "name" : "Wallstreet" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e37a" }, "name" : "Twentieth Anniversary Macintosh" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e37b" }, "name" : "Power Macintosh 5500" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e37c" }, "name" : "iBook G3", "company" : { "name" : "Apple Inc.", "_id" : { "$oid" : "4f817c9ce837a77dbe51e25f" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e37d" }, "name" : "Power Macintosh 5200 LC" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e37e" }, "name" : "Power Macintosh 5400" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e37f" }, "name" : "CM-1" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e380" }, "name" : "MSX", "introduced" : { "$date" : 410223600000 }, "company" : { "name" : "Zemmix", "_id" : { "$oid" : "4f817c9ce837a77dbe51e279" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e381" }, "name" : "PlayStation 3", "company" : { "name" : "Sony", "_id" : { "$oid" : "4f817c9ce837a77dbe51e26f" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e382" }, "name" : "MSX2", "introduced" : { "$date" : 504918000000 }, "company" : { "name" : "ACVS", "_id" : { "$oid" : "4f817c9ce837a77dbe51e27a" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e383" }, "name" : "MSX2+", "introduced" : { "$date" : 567990000000 }, "company" : { "name" : "Sanyo", "_id" : { "$oid" : "4f817c9ce837a77dbe51e27b" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e384" }, "name" : "MSX turbo R", "introduced" : { "$date" : 631148400000 } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e385" }, "name" : "Panasonic FS A1GT" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e386" }, "name" : "Panasonic FS A1ST" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e387" }, "name" : "PDP-11", "company" : { "name" : "Digital Equipment Corporation", "_id" : { "$oid" : "4f817c9ce837a77dbe51e268" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e388" }, "name" : "PDP-1", "company" : { "name" : "Digital Equipment Corporation", "_id" : { "$oid" : "4f817c9ce837a77dbe51e268" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e389" }, "name" : "PDP-10", "company" : { "name" : "Digital Equipment Corporation", "_id" : { "$oid" : "4f817c9ce837a77dbe51e268" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e38a" }, "name" : "PDP-8", "company" : { "name" : "Digital Equipment Corporation", "_id" : { "$oid" : "4f817c9ce837a77dbe51e268" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e38b" }, "name" : "PDP-6", "company" : { "name" : "Digital Equipment Corporation", "_id" : { "$oid" : "4f817c9ce837a77dbe51e268" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e38c" }, "name" : "DECSYSTEM-20", "company" : { "name" : "Digital Equipment Corporation", "_id" : { "$oid" : "4f817c9ce837a77dbe51e268" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e38d" }, "name" : "PDP-7", "company" : { "name" : "Digital Equipment Corporation", "_id" : { "$oid" : "4f817c9ce837a77dbe51e268" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e38e" }, "name" : "PDP-5", "company" : { "name" : "Digital Equipment Corporation", "_id" : { "$oid" : "4f817c9ce837a77dbe51e268" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e38f" }, "name" : "PDP-12", "company" : { "name" : "Digital Equipment Corporation", "_id" : { "$oid" : "4f817c9ce837a77dbe51e268" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e390" }, "name" : "LINC", "company" : { "name" : "Digital Equipment Corporation", "_id" : { "$oid" : "4f817c9ce837a77dbe51e268" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e391" }, "name" : "PDP-14", "company" : { "name" : "Digital Equipment Corporation", "_id" : { "$oid" : "4f817c9ce837a77dbe51e268" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e392" }, "name" : "PDP-15", "company" : { "name" : "Digital Equipment Corporation", "_id" : { "$oid" : "4f817c9ce837a77dbe51e268" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e393" }, "name" : "PDP-16", "company" : { "name" : "Digital Equipment Corporation", "_id" : { "$oid" : "4f817c9ce837a77dbe51e268" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e394" }, "name" : "Cray X2", "introduced" : { "$date" : 1167606000000 }, "company" : { "name" : "Cray", "_id" : { "$oid" : "4f817c9ce837a77dbe51e27c" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e395" }, "name" : "Cray X-MP", "introduced" : { "$date" : 378687600000 }, "company" : { "name" : "Cray", "_id" : { "$oid" : "4f817c9ce837a77dbe51e27c" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e396" }, "name" : "Evans & Sutherland ES-1", "company" : { "name" : "Evans & Sutherland", "_id" : { "$oid" : "4f817c9ce837a77dbe51e27d" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e397" }, "name" : "Commodore VIC-20", "introduced" : { "$date" : 315529200000 }, "company" : { "name" : "Commodore International", "_id" : { "$oid" : "4f817c9ce837a77dbe51e264" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e398" }, "name" : "PowerBook 150" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e399" }, "name" : "MacBook Air", "introduced" : { "$date" : 1200351600000 }, "company" : { "name" : "Apple Inc.", "_id" : { "$oid" : "4f817c9ce837a77dbe51e25f" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e39a" }, "name" : "Digi-Comp I", "introduced" : { "$date" : 18446743852781151616 }, "company" : { "name" : "E.S.R. Inc.", "_id" : { "$oid" : "4f817c9ce837a77dbe51e27e" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e39b" }, "name" : "Digi-Comp" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e39c" }, "name" : "Digi-Comp II", "company" : { "name" : "E.S.R. Inc.", "_id" : { "$oid" : "4f817c9ce837a77dbe51e27e" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e39d" }, "name" : "Manchester Mark I", "introduced" : { "$date" : 18446743411017951616 } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e39e" }, "name" : "Small-Scale Experimental Machine", "introduced" : { "$date" : 18446743379395551616 } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e39f" }, "name" : "Nintendo 64", "company" : { "name" : "Nintendo", "_id" : { "$oid" : "4f817c9ce837a77dbe51e275" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3a0" }, "name" : "Game Boy Advance", "company" : { "name" : "Nintendo", "_id" : { "$oid" : "4f817c9ce837a77dbe51e275" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3a1" }, "name" : "Game Boy", "company" : { "name" : "Nintendo", "_id" : { "$oid" : "4f817c9ce837a77dbe51e275" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3a2" }, "name" : "Nintendo DS Lite", "company" : { "name" : "Nintendo", "_id" : { "$oid" : "4f817c9ce837a77dbe51e275" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3a3" }, "name" : "Nintendo DS", "introduced" : { "$date" : 1072911600000 }, "company" : { "name" : "Nintendo", "_id" : { "$oid" : "4f817c9ce837a77dbe51e275" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3a4" }, "name" : "Game Boy Color", "company" : { "name" : "Nintendo", "_id" : { "$oid" : "4f817c9ce837a77dbe51e275" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3a5" }, "name" : "Game Boy Advance SP", "company" : { "name" : "Nintendo", "_id" : { "$oid" : "4f817c9ce837a77dbe51e275" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3a6" }, "name" : "Virtual Boy", "company" : { "name" : "Nintendo", "_id" : { "$oid" : "4f817c9ce837a77dbe51e275" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3a7" }, "name" : "Game Boy Micro", "company" : { "name" : "Nintendo", "_id" : { "$oid" : "4f817c9ce837a77dbe51e275" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3a8" }, "name" : "Roadrunner", "company" : { "name" : "IBM", "_id" : { "$oid" : "4f817c9ce837a77dbe51e26b" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3a9" }, "name" : "HP 9000" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3aa" }, "name" : "OMRON Luna-88K2" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3ab" }, "name" : "OMRON Luna-88K", "company" : { "name" : "OMRON", "_id" : { "$oid" : "4f817c9ce837a77dbe51e27f" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3ac" }, "name" : "Motorola series 900" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3ad" }, "name" : "Motorola M8120" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3ae" }, "name" : "Triton Dolphin System 100" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3af" }, "name" : "BBN TC2000", "introduced" : { "$date" : 617925600000 }, "company" : { "name" : "BBN Technologies", "_id" : { "$oid" : "4f817c9ce837a77dbe51e280" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3b0" }, "name" : "WRT54G" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3b1" }, "name" : "ThinkPad", "introduced" : { "$date" : 694220400000 }, "company" : { "name" : "Lenovo Group", "_id" : { "$oid" : "4f817c9ce837a77dbe51e281" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3b2" }, "name" : "Apple Newton", "introduced" : { "$date" : 725842800000 }, "company" : { "name" : "Apple Inc.", "_id" : { "$oid" : "4f817c9ce837a77dbe51e25f" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3b3" }, "name" : "Atanasoff-Berry Computer", "introduced" : { "$date" : 18446743032330351616 } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3b4" }, "name" : "Atlas Computer", "introduced" : { "$date" : 18446743821245151616 } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3b5" }, "name" : "ASUS Eee PC 901", "company" : { "name" : "ASUS", "_id" : { "$oid" : "4f817c9ce837a77dbe51e282" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3b6" }, "name" : "ASUS Eee PC 701" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3b7" }, "name" : "IBM 7030", "introduced" : { "$date" : 18446743789709151616 }, "company" : { "name" : "IBM", "_id" : { "$oid" : "4f817c9ce837a77dbe51e26b" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3b8" }, "name" : "System/38", "introduced" : { "$date" : 283993200000 }, "company" : { "name" : "IBM", "_id" : { "$oid" : "4f817c9ce837a77dbe51e26b" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3b9" }, "name" : "System/36", "introduced" : { "$date" : 410223600000 }, "company" : { "name" : "IBM", "_id" : { "$oid" : "4f817c9ce837a77dbe51e26b" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3ba" }, "name" : "IBM 7090", "introduced" : { "$date" : 18446743726550751616 }, "company" : { "name" : "IBM", "_id" : { "$oid" : "4f817c9ce837a77dbe51e26b" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3bb" }, "name" : "IBM RT", "company" : { "name" : "IBM", "_id" : { "$oid" : "4f817c9ce837a77dbe51e26b" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3bc" }, "name" : "System/360", "introduced" : { "$date" : 18446743884317151616 }, "company" : { "name" : "IBM", "_id" : { "$oid" : "4f817c9ce837a77dbe51e26b" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3bd" }, "name" : "IBM 801", "introduced" : { "$date" : 315529200000 }, "company" : { "name" : "IBM", "_id" : { "$oid" : "4f817c9ce837a77dbe51e26b" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3be" }, "name" : "IBM 1401", "introduced" : { "$date" : 18446743726550751616 }, "company" : { "name" : "IBM", "_id" : { "$oid" : "4f817c9ce837a77dbe51e26b" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3bf" }, "name" : "ASCI White", "introduced" : { "$date" : 978303600000 }, "company" : { "name" : "IBM", "_id" : { "$oid" : "4f817c9ce837a77dbe51e26b" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3c0" }, "name" : "Blue Gene", "company" : { "name" : "IBM", "_id" : { "$oid" : "4f817c9ce837a77dbe51e26b" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3c1" }, "name" : "ASCI Blue Pacific", "introduced" : { "$date" : 883609200000 }, "company" : { "name" : "IBM", "_id" : { "$oid" : "4f817c9ce837a77dbe51e26b" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3c2" }, "name" : "iPhone", "introduced" : { "$date" : 1180648800000 }, "company" : { "name" : "Apple Inc.", "_id" : { "$oid" : "4f817c9ce837a77dbe51e25f" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3c3" }, "name" : "Nokia N810", "introduced" : { "$date" : 1192572000000 }, "company" : { "name" : "Nokia", "_id" : { "$oid" : "4f817c9ce837a77dbe51e26e" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3c4" }, "name" : "EDSAC 2" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3c5" }, "name" : "Titan" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3c6" }, "name" : "Pilot ACE" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3c7" }, "name" : "HP Mini 1000", "introduced" : { "$date" : 1225234800000 }, "company" : { "name" : "Hewlett-Packard", "_id" : { "$oid" : "4f817c9ce837a77dbe51e278" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3c8" }, "name" : "HP 2133 Mini-Note PC", "introduced" : { "$date" : 1208210400000 }, "company" : { "name" : "Hewlett-Packard", "_id" : { "$oid" : "4f817c9ce837a77dbe51e278" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3c9" }, "name" : "Kogan Agora Pro", "introduced" : { "$date" : 1228345200000 } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3ca" }, "name" : "D-Series Machines" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3cb" }, "name" : "ZX Spectrum 48K", "introduced" : { "$date" : 378687600000 }, "company" : { "name" : "Sinclair Research Ltd", "_id" : { "$oid" : "4f817c9ce837a77dbe51e276" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3cc" }, "name" : "ZX Spectrum 16K", "introduced" : { "$date" : 378687600000 }, "company" : { "name" : "Sinclair Research Ltd", "_id" : { "$oid" : "4f817c9ce837a77dbe51e276" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3cd" }, "name" : "ZX Spectrum 128", "introduced" : { "$date" : 494373600000 }, "company" : { "name" : "Sinclair Research Ltd", "_id" : { "$oid" : "4f817c9ce837a77dbe51e276" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3ce" }, "name" : "ZX Spectrum +3", "company" : { "name" : "Amstrad", "_id" : { "$oid" : "4f817c9ce837a77dbe51e283" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3cf" }, "name" : "ZX Spectrum +2", "introduced" : { "$date" : 504918000000 }, "company" : { "name" : "Amstrad", "_id" : { "$oid" : "4f817c9ce837a77dbe51e283" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3d0" }, "name" : "ZX Spectrum +2A", "introduced" : { "$date" : 536454000000 }, "company" : { "name" : "Amstrad", "_id" : { "$oid" : "4f817c9ce837a77dbe51e283" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3d1" }, "name" : "ZX Spectrum +", "introduced" : { "$date" : 454888800000 }, "company" : { "name" : "Sinclair Research Ltd", "_id" : { "$oid" : "4f817c9ce837a77dbe51e276" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3d2" }, "name" : "Acer Extensa" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3d3" }, "name" : "Acer Extensa 5220" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3d4" }, "name" : "Dell Latitude" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3d5" }, "name" : "Toshiba Satellite" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3d6" }, "name" : "Timex Sinclair 2048", "company" : { "name" : "Timex Sinclair", "_id" : { "$oid" : "4f817c9ce837a77dbe51e274" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3d7" }, "name" : "Sprinter" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3d8" }, "name" : "Timex Computer 2048" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3d9" }, "name" : "Pentagon" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3da" }, "name" : "Belle" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3db" }, "name" : "Loki", "company" : { "name" : "Sinclair Research Ltd", "_id" : { "$oid" : "4f817c9ce837a77dbe51e276" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3dc" }, "name" : "Hobbit" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3dd" }, "name" : "NeXT Computer", "company" : { "name" : "NeXT", "_id" : { "$oid" : "4f817c9ce837a77dbe51e271" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3de" }, "name" : "TRS-80" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3df" }, "name" : "TRS-80 Model 2", "introduced" : { "$date" : 315529200000 }, "company" : { "name" : "Tandy Corporation", "_id" : { "$oid" : "4f817c9ce837a77dbe51e263" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3e0" }, "name" : "TRS-80 Model 3", "company" : { "name" : "Tandy Corporation", "_id" : { "$oid" : "4f817c9ce837a77dbe51e263" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3e1" }, "name" : "STacy", "introduced" : { "$date" : 599612400000 } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3e2" }, "name" : "ST BOOK", "introduced" : { "$date" : 631148400000 } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3e3" }, "name" : "Atari 520 STE", "introduced" : { "$date" : 599612400000 } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3e4" }, "name" : "Amiga 2000 Model A" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3e5" }, "name" : "Amiga 2000 Model B" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3e6" }, "name" : "Amiga 2000 Model C" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3e7" }, "name" : "IBM 3270" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3e8" }, "name" : "CALDIC" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3e9" }, "name" : "Modbook" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3ea" }, "name" : "Compaq SystemPro" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3eb" }, "name" : "ARRA" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3ec" }, "name" : "IBM System Cluster 1350" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3ed" }, "name" : "Finite element machine" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3ee" }, "name" : "ES7000" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3ef" }, "name" : "HP MediaSmart Server" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3f0" }, "name" : "HP Superdome" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3f1" }, "name" : "IBM Power Systems", "introduced" : { "$date" : 1199142000000 }, "company" : { "name" : "IBM", "_id" : { "$oid" : "4f817c9ce837a77dbe51e26b" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3f2" }, "name" : "Oslo Analyzer" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3f3" }, "name" : "Microsoft Softcard" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3f4" }, "name" : "WITCH" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3f5" }, "name" : "Analytical engine" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3f6" }, "name" : "EDVAC" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3f7" }, "name" : "BINAC" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3f8" }, "name" : "Earth Simulator" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3f9" }, "name" : "BARK" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3fa" }, "name" : "Harvard Mark I", "introduced" : { "$date" : 18446743253165151616 }, "company" : { "name" : "IBM", "_id" : { "$oid" : "4f817c9ce837a77dbe51e26b" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3fb" }, "name" : "ILLIAC IV" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3fc" }, "name" : "ILLIAC II" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3fd" }, "name" : "ILLIAC III" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3fe" }, "name" : "Water integrator" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e3ff" }, "name" : "CSIRAC" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e400" }, "name" : "System X" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e401" }, "name" : "Harvest" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e402" }, "name" : "ChipTest" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e403" }, "name" : "HiTech" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e404" }, "name" : "Bomba" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e405" }, "name" : "ACE" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e406" }, "name" : "ASCI Red" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e407" }, "name" : "ASCI Thors Hammer" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e408" }, "name" : "ASCI Purple", "introduced" : { "$date" : 1104534000000 }, "company" : { "name" : "IBM", "_id" : { "$oid" : "4f817c9ce837a77dbe51e26b" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e409" }, "name" : "ASCI Blue Mountain" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e40a" }, "name" : "Columbia" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e40b" }, "name" : "HP Integrity" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e40c" }, "name" : "APEXC" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e40d" }, "name" : "Datasaab D2" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e40e" }, "name" : "BRLESC" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e40f" }, "name" : "DYSEAC" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e410" }, "name" : "SSEC", "introduced" : { "$date" : 18446743379395551616 }, "company" : { "name" : "IBM", "_id" : { "$oid" : "4f817c9ce837a77dbe51e26b" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e411" }, "name" : "Hydra" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e412" }, "name" : "FUJIC" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e413" }, "name" : "RAYDAC" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e414" }, "name" : "Harvard Mark III" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e415" }, "name" : "DATAR" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e416" }, "name" : "ReserVec" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e417" }, "name" : "DASK" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e418" }, "name" : "UTEC" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e419" }, "name" : "DRTE Computer" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e41a" }, "name" : "PowerEdge" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e41b" }, "name" : "Apple Network Server" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e41c" }, "name" : "Goodyear MPP" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e41d" }, "name" : "Macintosh 128K technical details" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e41e" }, "name" : "Power Macintosh G3" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e41f" }, "name" : "CER-10" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e420" }, "name" : "CER-20" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e421" }, "name" : "IBM BladeCenter", "introduced" : { "$date" : 1009839600000 }, "company" : { "name" : "IBM", "_id" : { "$oid" : "4f817c9ce837a77dbe51e26b" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e422" }, "name" : "Wisconsin Integrally Synchronized Computer" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e423" }, "name" : "Amstrad CPC", "company" : { "name" : "Amstrad", "_id" : { "$oid" : "4f817c9ce837a77dbe51e283" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e424" }, "name" : "Amstrad CPC 6128", "company" : { "name" : "Amstrad", "_id" : { "$oid" : "4f817c9ce837a77dbe51e283" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e425" }, "name" : "Amstrad CPC 664", "company" : { "name" : "Amstrad", "_id" : { "$oid" : "4f817c9ce837a77dbe51e283" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e426" }, "name" : "Amstrad CPC 464", "company" : { "name" : "Amstrad", "_id" : { "$oid" : "4f817c9ce837a77dbe51e283" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e427" }, "name" : "Intergraph" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e428" }, "name" : "Enterprise" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e429" }, "name" : "MTX500" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e42a" }, "name" : "Acorn Electron" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e42b" }, "name" : "Sony Vaio P", "introduced" : { "$date" : 1233442800000 }, "company" : { "name" : "Sony", "_id" : { "$oid" : "4f817c9ce837a77dbe51e26f" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e42c" }, "name" : "VAIO", "company" : { "name" : "Sony", "_id" : { "$oid" : "4f817c9ce837a77dbe51e26f" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e42d" }, "name" : "Sony Vaio P VGN-P588E/Q" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e42e" }, "name" : "Sony Vaio P VGN-P530H/G" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e42f" }, "name" : "Sony Vaio P VGN-P530H/W" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e430" }, "name" : "Sony Vaio P VGN-P530H/Q" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e431" }, "name" : "Sony Vaio P VGN-P530H/R" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e432" }, "name" : "Sony Vaio P VGN-P588E/R" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e433" }, "name" : "Sony Vaio P VGN-P598E/Q" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e434" }, "name" : "Timex Sinclair 1000", "introduced" : { "$date" : 394322400000 }, "company" : { "name" : "Timex Sinclair", "_id" : { "$oid" : "4f817c9ce837a77dbe51e274" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e435" }, "name" : "Komputer 2086" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e436" }, "name" : "Galaksija" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e437" }, "name" : "Vector-06C" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e438" }, "name" : "Elektronika BK" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e439" }, "name" : "Sun386i", "company" : { "name" : "Sun Microsystems", "_id" : { "$oid" : "4f817c9ce837a77dbe51e284" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e43a" }, "name" : "Xerox Daybreak", "introduced" : { "$date" : 473382000000 } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e43b" }, "name" : "Xerox NoteTaker", "company" : { "name" : "Xerox", "_id" : { "$oid" : "4f817c9ce837a77dbe51e277" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e43c" }, "name" : "D4a", "introduced" : { "$date" : 18446743915939551616 } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e43d" }, "name" : "LGP-30" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e43e" }, "name" : "LGP-21" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e43f" }, "name" : "ASUS Eee PC 900", "introduced" : { "$date" : 1209592800000 }, "company" : { "name" : "ASUS", "_id" : { "$oid" : "4f817c9ce837a77dbe51e282" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e440" }, "name" : "Atari TT030" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e441" }, "name" : "Bi Am ZX-Spectrum 48/64" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e442" }, "name" : "Bi Am ZX-Spectrum 128" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e443" }, "name" : "PlayStation Portable" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e444" }, "name" : "MSI Wind Netbook" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e445" }, "name" : "Sharp Mebius NJ70A", "introduced" : { "$date" : 1240264800000 } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e446" }, "name" : "HTC Snap", "company" : { "name" : "HTC Corporation", "_id" : { "$oid" : "4f817c9ce837a77dbe51e286" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e447" }, "name" : "Commodore Educator 64", "company" : { "name" : "Commodore International", "_id" : { "$oid" : "4f817c9ce837a77dbe51e264" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e448" }, "name" : "Amiga 1500", "company" : { "name" : "Commodore International", "_id" : { "$oid" : "4f817c9ce837a77dbe51e264" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e449" }, "name" : "Commodore 65", "company" : { "name" : "Commodore International", "_id" : { "$oid" : "4f817c9ce837a77dbe51e264" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e44a" }, "name" : "Commodore 16", "company" : { "name" : "Commodore International", "_id" : { "$oid" : "4f817c9ce837a77dbe51e264" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e44b" }, "name" : "Commodore CBM-II", "company" : { "name" : "Commodore International", "_id" : { "$oid" : "4f817c9ce837a77dbe51e264" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e44c" }, "name" : "Commodore Plus/4", "company" : { "name" : "Commodore International", "_id" : { "$oid" : "4f817c9ce837a77dbe51e264" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e44d" }, "name" : "Commodore LCD", "company" : { "name" : "Commodore International", "_id" : { "$oid" : "4f817c9ce837a77dbe51e264" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e44e" }, "name" : "Commodore MAX Machine", "company" : { "name" : "Commodore International", "_id" : { "$oid" : "4f817c9ce837a77dbe51e264" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e44f" }, "name" : "Aster CT-80" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e450" }, "name" : "Test", "introduced" : { "$date" : 1230764400000 } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e451" }, "name" : "MSI GX723" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e452" }, "name" : "Eee PC 1000HV", "introduced" : { "$date" : 1242943200000 } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e453" }, "name" : "VTech Laser 200", "introduced" : { "$date" : 410223600000 } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e454" }, "name" : "CrunchPad" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e455" }, "name" : "Neo Geo", "introduced" : { "$date" : 631148400000 } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e456" }, "name" : "Sega Mega Drive" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e457" }, "name" : "Sega Master System" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e458" }, "name" : "TurboGrafx-16" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e459" }, "name" : "Sun-3", "company" : { "name" : "Sun Microsystems", "_id" : { "$oid" : "4f817c9ce837a77dbe51e284" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e45a" }, "name" : "Pleiades" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e45b" }, "name" : "IBM Sequoia" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e45c" }, "name" : "Inves Spectrum 48k plus" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e45d" }, "name" : "iPhone 3G" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e45e" }, "name" : "iPhone 3GS" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e45f" }, "name" : "Beagle Board", "company" : { "name" : "Texas Instruments", "_id" : { "$oid" : "4f817c9ce837a77dbe51e285" } } }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e460" }, "name" : "HP nPar" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e461" }, "name" : "MacBook Family" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e462" }, "name" : "Reservisor" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e463" }, "name" : "BladeSystem" }
+{ "_id" : { "$oid" : "4f817c9ce837a77dbe51e464" }, "name" : "lenovo thinkpad t60p" }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e465" }, "name" : "lenovo thinkpad x200", "company" : { "name" : "Lenovo Group", "_id" : { "$oid" : "4f817c9ce837a77dbe51e281" } } }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e466" }, "name" : "lenovo thinkpad t60" }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e467" }, "name" : "lenovo thinkpad w700" }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e468" }, "name" : "lenovo thinkpad t41" }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e469" }, "name" : "lenovo thinkpad z61p" }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e46a" }, "name" : "lenovo thinkpad x61s" }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e46b" }, "name" : "lenovo thinkpad t43" }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e46c" }, "name" : "lenovo thinkpad r400" }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e46d" }, "name" : "lenovo thinkpad x60s" }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e46e" }, "name" : "lenovo thinkpad x301" }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e46f" }, "name" : "lenovo thinkpad t42" }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e470" }, "name" : "lenovo thinkpad r61" }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e471" }, "name" : "lenovo thinkpad w500" }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e472" }, "name" : "lenovo thinkpad sl400" }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e473" }, "name" : "lenovo thinkpad x40" }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e474" }, "name" : "lenovo thinkpad x200 tablet", "company" : { "name" : "Lenovo Group", "_id" : { "$oid" : "4f817c9ce837a77dbe51e281" } } }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e475" }, "name" : "lenovo thinkpad t400s" }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e476" }, "name" : "Nokia N900", "introduced" : { "$date" : 1254348000000 }, "company" : { "name" : "Nokia", "_id" : { "$oid" : "4f817c9ce837a77dbe51e26e" } } }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e477" }, "name" : "Internet Tablet" }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e478" }, "name" : "Meiko Computing Surface", "introduced" : { "$date" : 504918000000 } }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e479" }, "name" : "CS-2" }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e47a" }, "name" : "IBM 701", "introduced" : { "$date" : 18446743505625951616 }, "company" : { "name" : "IBM", "_id" : { "$oid" : "4f817c9ce837a77dbe51e26b" } } }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e47b" }, "name" : "IBM 5100", "introduced" : { "$date" : 157762800000 }, "company" : { "name" : "IBM", "_id" : { "$oid" : "4f817c9ce837a77dbe51e26b" } } }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e47c" }, "name" : "AN/FSQ-7", "introduced" : { "$date" : 18446743695014751616 }, "company" : { "name" : "IBM", "_id" : { "$oid" : "4f817c9ce837a77dbe51e26b" } } }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e47d" }, "name" : "AN/FSQ-32", "introduced" : { "$date" : 18446743758086751616 }, "company" : { "name" : "IBM", "_id" : { "$oid" : "4f817c9ce837a77dbe51e26b" } } }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e47e" }, "name" : "IBM CPC", "introduced" : { "$date" : 18446743411017951616 }, "company" : { "name" : "IBM", "_id" : { "$oid" : "4f817c9ce837a77dbe51e26b" } } }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e47f" }, "name" : "System/34", "introduced" : { "$date" : 252457200000 }, "company" : { "name" : "IBM", "_id" : { "$oid" : "4f817c9ce837a77dbe51e26b" } } }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e480" }, "name" : "System/32", "introduced" : { "$date" : 157762800000 }, "company" : { "name" : "IBM", "_id" : { "$oid" : "4f817c9ce837a77dbe51e26b" } } }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e481" }, "name" : "System/3", "introduced" : { "$date" : 18446744042169951616 }, "company" : { "name" : "IBM", "_id" : { "$oid" : "4f817c9ce837a77dbe51e26b" } } }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e482" }, "name" : "IBM 305", "introduced" : { "$date" : 18446743631856351616 }, "company" : { "name" : "IBM", "_id" : { "$oid" : "4f817c9ce837a77dbe51e26b" } } }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e483" }, "name" : "English Electric DEUCE" }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e484" }, "name" : "CER-203" }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e485" }, "name" : "CER-22" }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e486" }, "name" : "Kentucky Linux Athlon Testbed" }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e487" }, "name" : "QNAP TS-101" }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e488" }, "name" : "iPad", "introduced" : { "$date" : 1262300400000 }, "company" : { "name" : "Apple Inc.", "_id" : { "$oid" : "4f817c9ce837a77dbe51e25f" } } }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e489" }, "name" : "iPhone 2G" }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e48a" }, "name" : "Inslaw" }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e48b" }, "name" : "WePad", "introduced" : { "$date" : 1277935200000 } }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e48c" }, "name" : "MacBook Parts", "company" : { "name" : "Apple Inc.", "_id" : { "$oid" : "4f817c9ce837a77dbe51e25f" } } }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e48d" }, "name" : "MacBook 13-inch Core 2 Duo 2.13GHz (MC240LL/A) DDR2 Model", "company" : { "name" : "Apple Inc.", "_id" : { "$oid" : "4f817c9ce837a77dbe51e25f" } } }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e48e" }, "name" : "MacBook 13-inch Core 2 Duo 2.13GHz (MC240T/A) DDR2 Model" }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e48f" }, "name" : "MacBook 13-inch Core 2 Duo 2.13GHz (MC240X/A) DDR2 Model" }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e490" }, "name" : "MacBook 13-inch Core 2 Duo 2.26GHz (Unibody MC207LL/A) DDR3 Model" }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e491" }, "name" : "MC240LL/A" }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e492" }, "name" : "D.K.COMMUNICATION" }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e493" }, "name" : "iPhone 4", "company" : { "name" : "Apple Inc.", "_id" : { "$oid" : "4f817c9ce837a77dbe51e25f" } } }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e494" }, "name" : "Nintendo 3DS", "introduced" : { "$date" : 1269298800000 }, "company" : { "name" : "Nintendo", "_id" : { "$oid" : "4f817c9ce837a77dbe51e275" } } }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e495" }, "name" : "ASUS Eee PC 1005PE", "introduced" : { "$date" : 1262300400000 }, "company" : { "name" : "ASUS", "_id" : { "$oid" : "4f817c9ce837a77dbe51e282" } } }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e496" }, "name" : "National Law Enforcement System" }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e497" }, "name" : "BlackBerry PlayBook", "company" : { "name" : "Research In Motion", "_id" : { "$oid" : "4f817c9ce837a77dbe51e287" } } }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e498" }, "name" : "Barnes & Noble nook", "introduced" : { "$date" : 1255989600000 } }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e499" }, "name" : "SAM CoupÃ©" }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e49a" }, "name" : "HTC Dream", "introduced" : { "$date" : 1224626400000 }, "company" : { "name" : "HTC Corporation", "_id" : { "$oid" : "4f817c9ce837a77dbe51e286" } } }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e49b" }, "name" : "Samsung Galaxy Tab", "introduced" : { "$date" : 1283378400000 }, "company" : { "name" : "Samsung Electronics", "_id" : { "$oid" : "4f817c9ce837a77dbe51e288" } } }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e49c" }, "name" : "BlackBerry PlayBook", "introduced" : { "$date" : 1285538400000 }, "company" : { "name" : "Research In Motion", "_id" : { "$oid" : "4f817c9ce837a77dbe51e287" } } }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e49d" }, "name" : "Tianhe-I" }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e49e" }, "name" : "Kno" }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e49f" }, "name" : "ThinkPad 701 C" }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e4a0" }, "name" : "ThinkPad 340 CSE" }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e4a1" }, "name" : "ThinkPad 755 CX" }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e4a2" }, "name" : "ThinkPad 755 CE" }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e4a3" }, "name" : "ThinkPad 370 C" }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e4a4" }, "name" : "Coleco Adam", "introduced" : { "$date" : 410223600000 } }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e4a5" }, "name" : "Nebulae" }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e4a6" }, "name" : "Alex eReader" }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e4a7" }, "name" : "Acer Iconia" }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e4a8" }, "name" : "Archos 101" }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e4a9" }, "name" : "Fujitsu Lifebook T900" }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e4aa" }, "name" : "Motorola Xoom" }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e4ab" }, "name" : "ViewSonic G Tablet" }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e4ac" }, "name" : "DEC Professional", "introduced" : { "$date" : 378687600000 }, "company" : { "name" : "Digital Equipment Corporation", "_id" : { "$oid" : "4f817c9ce837a77dbe51e268" } } }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e4ad" }, "name" : "DEC Multia", "introduced" : { "$date" : 784162800000 }, "company" : { "name" : "Digital Equipment Corporation", "_id" : { "$oid" : "4f817c9ce837a77dbe51e268" } } }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e4ae" }, "name" : "DEC Firefly", "company" : { "name" : "Digital Equipment Corporation", "_id" : { "$oid" : "4f817c9ce837a77dbe51e268" } } }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e4af" }, "name" : "DEC 3000 AXP", "company" : { "name" : "Digital Equipment Corporation", "_id" : { "$oid" : "4f817c9ce837a77dbe51e268" } } }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e4b0" }, "name" : "DEC 2000 AXP", "introduced" : { "$date" : 738280800000 }, "company" : { "name" : "Digital Equipment Corporation", "_id" : { "$oid" : "4f817c9ce837a77dbe51e268" } } }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e4b1" }, "name" : "DEC 4000 AXP", "introduced" : { "$date" : 721350000000 }, "company" : { "name" : "Digital Equipment Corporation", "_id" : { "$oid" : "4f817c9ce837a77dbe51e268" } } }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e4b2" }, "name" : "DEC 7000/10000 AXP", "introduced" : { "$date" : 721350000000 }, "company" : { "name" : "Digital Equipment Corporation", "_id" : { "$oid" : "4f817c9ce837a77dbe51e268" } } }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e4b3" }, "name" : "DEC Professional 350" }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e4b4" }, "name" : "DEC Rainbow 100" }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e4b5" }, "name" : "DEC Professional 325" }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e4b6" }, "name" : "DECmate II", "company" : { "name" : "Digital Equipment Corporation", "_id" : { "$oid" : "4f817c9ce837a77dbe51e268" } } }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e4b7" }, "name" : "DECmate", "company" : { "name" : "Digital Equipment Corporation", "_id" : { "$oid" : "4f817c9ce837a77dbe51e268" } } }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e4b8" }, "name" : "DECsystem", "company" : { "name" : "Digital Equipment Corporation", "_id" : { "$oid" : "4f817c9ce837a77dbe51e268" } } }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e4b9" }, "name" : "NetApp Filer" }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e4ba" }, "name" : "DEC GT40", "company" : { "name" : "Digital Equipment Corporation", "_id" : { "$oid" : "4f817c9ce837a77dbe51e268" } } }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e4bb" }, "name" : "ecoATM" }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e4bc" }, "name" : "MindWave BrainCubed Education Bundle" }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e4bd" }, "name" : "PalmPilot" }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e4be" }, "name" : "Upcoming iPhone 5", "company" : { "name" : "Apple Inc.", "_id" : { "$oid" : "4f817c9ce837a77dbe51e25f" } } }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e4bf" }, "name" : "Dell Inspiron 560 Desktop Computer" }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e4c0" }, "name" : "IPad 2", "company" : { "name" : "Apple Inc.", "_id" : { "$oid" : "4f817c9ce837a77dbe51e25f" } } }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e4c1" }, "name" : "HP TouchPad", "introduced" : { "$date" : 1297206000000 }, "company" : { "name" : "Hewlett-Packard", "_id" : { "$oid" : "4f817c9ce837a77dbe51e278" } } }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e4c2" }, "name" : "HP Veer", "introduced" : { "$date" : 1297206000000 }, "company" : { "name" : "Hewlett-Packard", "_id" : { "$oid" : "4f817c9ce837a77dbe51e278" } } }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e4c3" }, "name" : "Lenovo Thinkpad Edge 11", "company" : { "name" : "Lenovo Group", "_id" : { "$oid" : "4f817c9ce837a77dbe51e281" } } }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e4c4" }, "name" : "Dell Vostro" }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e4c5" }, "name" : "Gateway LT3103U", "introduced" : { "$date" : 1199142000000 } }
+{ "_id" : { "$oid" : "4f817c9de837a77dbe51e4c6" }, "name" : "iPhone 4S", "introduced" : { "$date" : 1318543200000 }, "company" : { "name" : "Apple Inc.", "_id" : { "$oid" : "4f817c9ce837a77dbe51e25f" } } }
