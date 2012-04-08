@@ -69,12 +69,11 @@ function editLoad(computerId) {
     });
 }
 
-function update(computerAsJson) {
-    var computerId = computerAsJson._id;
+function update(computerId, jsonStream) {
     $.ajax({
         type : "POST",
         url : '/json/update/' + computerId,
-        data : JSON.stringify(computerAsJson),
+        data : jsonStream,
         success : function(data) {
 
             $.get('assets/OneComputerEntry.mustache', function(template) {
@@ -140,24 +139,3 @@ $(document).ready(function() {
 });
 var currentPage = 0;
 var totalPages = 1;
-
-/*(function(window, undefined) {
-
- // Prepare
- var History = window.History;
- // Note: We are using a capital H instead of a lower h
- if(!History.enabled) {
- // History.js is disabled for this browser.
- // This is because we can optionally choose to support HTML4 browsers or not.
- return false;
- }
-
- //Bind to StateChange Event
- History.Adapter.bind(window, 'statechange', function() {// Note: We are using statechange instead of popstate
- var State = History.getState();
- // Note: We are using History.getState() instead of event.state
-
- alert(State.data + " " + State.title + " " + State.url);
- History.log(State.data, State.title, State.url);
- });
- })(window);*/

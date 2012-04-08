@@ -37,15 +37,14 @@ object Application extends Controller {
    * Describe the computer form (used in both edit and create screens).
    */
 
-  val objectId = of[ObjectId]
-
-  val computerForm = Form(
-    mapping(
-      "id" -> ignored( null: ObjectId ),
-      "name" -> nonEmptyText,
-      "introduced" -> optional( date( "yyyy-MM-dd" ) ),
-      "discontinued" -> optional( date( "yyyy-MM-dd" ) ),
-      "company" -> optional( objectId ) )( Computer.apply )( Computer.unapply ) )
+  //    val objectId = of[Company]
+  //    val computerForm = Form(
+  //      mapping(
+  //        "id" -> ignored( null: ObjectId ),
+  //        "name" -> nonEmptyText,
+  //        "introduced" -> optional( date( "yyyy-MM-dd" ) ),
+  //        "discontinued" -> optional( date( "yyyy-MM-dd" ) ),
+  //        "company" -> optional( Company ) )( Computer.apply )( Computer.unapply ) )
 
   // -- Actions
 
@@ -69,21 +68,12 @@ object Application extends Controller {
 
   def jsonList( page: Int, orderBy: Int, filter: String ) = Action {
 
-    val results = ComputerDAO.jsonListWithCount( page = page, orderBy = orderBy, filter = filter )
-
-    val resultSize = results._1
-    val computerCompanyTuples = results._2
-
-    Ok( toJson( JsObject( List(
-      "total" -> JsNumber( resultSize ),
-      "currentPage" -> JsNumber( page ),
-      "computers" -> JsArray(
-        computerCompanyTuples.map( tuple => JsObject( List(
-          "_id" -> JsString( tuple._1._id.toString ),
-          "name" -> JsString( tuple._1.name ),
-          "introduced" -> JsString( tuple._1.introduced.map( date => dateFormatter.format( date ) ).getOrElse( "-" ) ),
-          "discontinued" -> JsString( tuple._1.discontinued.map( date => dateFormatter.format( date ) ) getOrElse ( "-" ) ),
-          "company" -> JsString( tuple._2.map( company => company.name ).getOrElse( "" ) ) ) ) ) ) ) ) ) )
+    val ( size, computers ) = ComputerDAO.jsonListWithCount( page = page, orderBy = orderBy, filter = filter )
+    Ok( toJson(
+      Map(
+        "currentPage" -> toJson( page ),
+        "total" -> toJson( size ),
+        "computers" -> toJson( computers ) ) ) )
   }
 
   /**
@@ -102,9 +92,10 @@ object Application extends Controller {
    * @param id Id of the computer to edit
    */
   def edit( id: String, keepPage: Int = 0 ) = Action {
-    ComputerDAO.findById( id ).map { computer =>
-      Ok( html.editForm( id, keepPage, computerForm.fill( computer ) ) )
-    }.getOrElse( NotFound )
+    //    ComputerDAO.findById( id ).map { computer =>
+    //      Ok( html.editForm( id, keepPage, computerForm.fill( computer ) ) )
+    //    }.getOrElse( NotFound )
+    NotFound
   }
 
   /**
@@ -113,14 +104,15 @@ object Application extends Controller {
    * @param id Id of the computer to edit
    */
   def update( id: String, keepPage: Int = 0 ) = Action { implicit request =>
-    computerForm.bindFromRequest.fold(
-      formWithErrors => BadRequest( html.editForm( id, keepPage, formWithErrors ) ),
-      computer => {
-        ComputerDAO.save( Computer.compose( id, computer ) )
-        Redirect( routes.Application.list( keepPage, 2, "" ) ).flashing(
-          "success" -> "Computer %s has been updated".format( computer.name ),
-          "updatedId" -> id.toString )
-      } )
+    //    computerForm.bindFromRequest.fold(
+    //      formWithErrors => BadRequest( html.editForm( id, keepPage, formWithErrors ) ),
+    //      computer => {
+    //        ComputerDAO.save( Computer.compose( id, computer ) )
+    //        Redirect( routes.Application.list( keepPage, 2, "" ) ).flashing(
+    //          "success" -> "Computer %s has been updated".format( computer.name ),
+    //          "updatedId" -> id.toString )
+    //      } )
+    NotFound
   }
 
   /**
@@ -134,8 +126,19 @@ object Application extends Controller {
 
     ComputerDAO.findOneByID( computerFromClient._id ).map {
       foundComputer =>
-        ComputerDAO.save( computerFromClient )
-        Ok( toJson( computerFromClient ) )
+        val maybeCompany = computerFromClient.company match {
+          case Some( cia ) => CompanyDAO.findOneByID( cia._id )
+          case _           => None
+        }
+        val safeComputer = Computer( computerFromClient._id,
+          computerFromClient.name,
+          computerFromClient.introduced,
+          computerFromClient.discontinued,
+          maybeCompany )
+        ComputerDAO.save( safeComputer )
+
+        //returns the computer being updated
+        Ok( toJson( safeComputer ) )
     }.getOrElse( NotFound( "Unable to update the computer because it doesn't exist anymore." ) )
   }
 
@@ -143,19 +146,21 @@ object Application extends Controller {
    * Display the 'new computer form'.
    */
   def create = Action {
-    Ok( html.createForm( computerForm ) )
+    //    Ok( html.createForm( computerForm ) )
+    NotFound
   }
 
   /**
    * Handle the 'new computer form' submission.
    */
   def save = Action { implicit request =>
-    computerForm.bindFromRequest.fold(
-      formWithErrors => BadRequest( html.createForm( formWithErrors ) ),
-      computer => {
-        ComputerDAO.insert( computer )
-        Home.flashing( "success" -> "Computer %s has been created".format( computer.name ) )
-      } )
+    //    computerForm.bindFromRequest.fold(
+    //      formWithErrors => BadRequest( html.createForm( formWithErrors ) ),
+    //      computer => {
+    //        ComputerDAO.insert( computer )
+    //        Home.flashing( "success" -> "Computer %s has been created".format( computer.name ) )
+    //      } )
+    NotFound
   }
 
   /**

@@ -1,4 +1,4 @@
-@(currentPage: Page[(Computer, Option[Company])], currentOrderBy: Int, currentFilter: String)(implicit flash: play.api.mvc.Flash)
+@(currentPage: Page[Computer], currentOrderBy: Int, currentFilter: String)(implicit flash: play.api.mvc.Flash)
 
 @****************************************
 * Get deleted item                      *
@@ -63,7 +63,7 @@
             <tbody id="computers">
 
                 @computers.map { 
-                    case (computer, company) => {
+                    case computer => {
                         <tr @updatedId match {
 							    case Some(id) if(id == computer._id.toString)=> {BGCOLOR="#99CCFF"}
 							    case _ => {}
@@ -78,7 +78,7 @@
                                 @computer.discontinued.map(_.format("dd MMM yyyy")).getOrElse { <em>-</em> }
                             </td>
                             <td>
-                                @company.map(_.name).getOrElse { <em>-</em> }
+                                @computer.company.map(_.name).getOrElse { <em>-</em> }
                             </td>
                         </tr>
                     }
@@ -112,16 +112,11 @@
                 }
             </ul>
         </div>
-        
+
     }.getOrElse {
         
         <div class="well">
             <em>Nothing to display</em>
         </div>
-        
     }
-
-        
 }
-
-            

@@ -1,10 +1,11 @@
-		<td><a id="{{_id}}" href="computers/{{_id}}" forEdit="yes">{{name}}</a></td>
-		<td>{{introduced}}</td>
-		<td>
-			{{#discontinued}}{{discontinued}}{{/discontinued}}
-			{{^discontinued}}--{{/discontinued}}
-		</td>
-		<td>{{company}}</td>
+<td><a id="{{_id}}" href="computers/{{_id}}" forEdit="yes">{{name}}</a></td>
+<td>{{#introduced}}<span friendDate="yes">{{introduced}}</span>{{/introduced}}
+	{{^introduced}}--{{/introduced}}</td>
+<td>
+	{{#discontinued}}<span friendDate="yes">{{discontinued}}</span>{{/discontinued}}
+	{{^discontinued}}--{{/discontinued}}
+</td>
+<td>{{company.name}}</td>
 <script>
 	$("#{{_id}}").click(function(event) {
         var computerId = $(this).attr("id");
@@ -12,4 +13,8 @@
         editLoad(computerId);
         event.preventDefault();
     });
+    $("span[friendDate=yes]").each(function (i) {
+		var dateAsStr = $(this).text();
+		$(this).text($.datepicker.formatDate('dd M yy', new Date(dateAsStr)));
+	});	
 </script>

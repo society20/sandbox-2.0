@@ -8,17 +8,11 @@ import com.novus.salat.global._
 import com.novus.salat.dao._
 import com.mongodb.casbah.Imports._
 import java.util.regex.Pattern
+import com.codahale.jerkson.JsonSnakeCase
 
-case class Company( _id: ObjectId, name: String )
+case class Company( _id: ObjectId, name: String, @transient fake: Boolean = false )
 case class Computer( _id: ObjectId, name: String, introduced: Option[Date], discontinued: Option[Date],
-                     //TODO : try to switch from ref to embedded while changing the form and the template
-                     company_id: Option[ObjectId] )
-
-object Computer {
-  def compose( id: String, computer: Computer ): Computer = {
-    new Computer( new ObjectId( id ), computer.name, computer.introduced, computer.discontinued, computer.company_id )
-  }
-}
+                     company: Option[Company] )
 
 object Company {
   def options: Seq[( String, String )] = {
@@ -30,19 +24,13 @@ object Company {
 object CompanyDAO extends SalatDAO[Company, ObjectId]( collection = MongoConnection()( "cdb" )( "companies" ) ) {
   val mongo = MongoConnection()( "cdb" )( "companies" )
   def findAll = CompanyDAO.find( MongoDBObject.empty )
-  def getCompany( computer: Computer ): Option[Company] = {
-    computer.company_id match {
-      case Some( companyId ) => findOneByID( companyId )
-      case _                 => None
-    }
-  }
 }
 
 object ComputerDAO extends SalatDAO[Computer, ObjectId]( collection = MongoConnection()( "cdb" )( "computers" ) ) {
 
   val mongo = MongoConnection()( "cdb" )( "computers" )
 
-  def list( page: Int = 0, pageSize: Int = 10, orderBy: Int = 1, filter: String = "" ): Page[( Computer, Option[Company] )] = {
+  def list( page: Int = 0, pageSize: Int = 10, orderBy: Int = 1, filter: String = "" ): Page[Computer] = {
     val offset = page * pageSize
     val regex = Pattern.compile( filter, Pattern.CASE_INSENSITIVE )
     val query = MongoDBObject( "name" -> regex )
@@ -51,26 +39,23 @@ object ComputerDAO extends SalatDAO[Computer, ObjectId]( collection = MongoConne
       .skip( offset )
       .limit( pageSize )
       .sort( MongoDBObject( geSort( orderBy ) ) )
-    val computersCompanySeq = results.foldLeft( Seq.empty[( Computer, Option[Company] )] )(
-      ( seq, computer ) => seq :+ ( computer, CompanyDAO.getCompany( computer ) ) ) // TODO : query the db for company
 
-    Page( computersCompanySeq, page, offset, all.count )
+    Page( results.toSeq, page, offset, all.count )
   }
 
-  def jsonListWithCount( page: Int = 0, pageSize: Int = 10, orderBy: Int = 1, filter: String = "" ): ( Int, Seq[( Computer, Option[Company] )] ) = {
+  def jsonListWithCount( page: Int = 0, pageSize: Int = 10, orderBy: Int = 1, filter: String = "" ): ( Int, Seq[( Computer )] ) = {
     val offset = page * pageSize
     val regex = Pattern.compile( filter, Pattern.CASE_INSENSITIVE )
     val query = MongoDBObject( "name" -> regex )
     val all = find( query )
     val count = all.count
+
     val results = all
       .skip( offset )
       .limit( pageSize )
       .sort( MongoDBObject( geSort( orderBy ) ) )
-    (
-      count,
-      results.foldLeft( Seq.empty[( Computer, Option[Company] )] )(
-        ( seq, computer ) => seq :+ ( computer, CompanyDAO.getCompany( computer ) ) ) )
+
+    ( count, results.toSeq )
   }
   def findById( id: String ): Option[Computer] = {
     findOneByID( new ObjectId( id ) )
