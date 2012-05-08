@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="initial-scale=1.0, user-scalable=no"/>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+        <title>Society 2.0 :: Google Maps JavaScript API v3 Example</title>
+
+        <link href="css/geocoding.css" rel="stylesheet" type="text/css" />
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="css/jquery-ui-1.8.20.custom.css" rel="stylesheet" type="text/css" />
+        <!-- need for google.maps.Geocoder -->
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+
+        <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+        <script type="text/javascript" src="js/jquery-ui-1.8.20.custom.min.js"></script>
+        <script type="text/javascript" src="js/google.geocoding.js"></script>
+    </head>
+    <body>
+        <div>
+            <input class="input-xxlarge"  id="address" type="textbox" placeholder="Enter address here (at least 3 characters)">
+            <input type="button" value="Display on map" onclick="displayOnGoogleMaps()">
+        </div>
+        <div id="map_canvas" style="height:90%;top:30px"></div>
+    </body>
+</html>

@@ -1,0 +1,153 @@
+{
+	"results": [
+		{
+			"address_components": [
+				{
+					"long_name": "Chemy",
+					"short_name": "Chemy",
+					"types": ["locality", "political"]
+				}, {
+					"long_name": "Nord",
+					"short_name": "59",
+					"types": ["administrative_area_level_2", "political"]
+				}, {
+					"long_name": "Nord-Pas-de-Calais",
+					"short_name": "Nord-Pas-de-Calais",
+					"types": ["administrative_area_level_1", "political"]
+				}, {
+					"long_name": "France",
+					"short_name": "FR",
+					"types": ["country", "political"]
+				}
+			],
+			"formatted_address": "Chemy, France",
+			"geometry": {
+				"bounds": {
+					"northeast": {
+						"lat": 50.5416110,
+						"lng": 3.0146920
+					},
+					"southwest": {
+						"lat": 50.5215690,
+						"lng": 2.9764170
+					}
+				},
+				"location": {
+					"lat": 50.5316220,
+					"lng": 2.9955810
+				},
+				"location_type": "APPROXIMATE",
+				"viewport": {
+					"northeast": {
+						"lat": 50.53871410,
+						"lng": 3.01158840
+					},
+					"southwest": {
+						"lat": 50.52452890,
+						"lng": 2.97957360
+					}
+				}
+			},
+			"types": ["locality", "political"]
+		}, {
+			"address_components": [
+				{
+					"long_name": "Chem",
+					"short_name": "Chem",
+					"types": ["route"]
+				}, {
+					"long_name": "Mondorf-les-Bains",
+					"short_name": "Mondorf-les-Bains",
+					"types": ["locality", "political"]
+				}, {
+					"long_name": "Remich",
+					"short_name": "Remich",
+					"types": ["administrative_area_level_2", "political"]
+				}, {
+					"long_name": "Grevenmacher",
+					"short_name": "Grevenmacher",
+					"types": ["administrative_area_level_1", "political"]
+				}, {
+					"long_name": "Luxembourg",
+					"short_name": "LU",
+					"types": ["country", "political"]
+				}
+			],
+			"formatted_address": "Chem, Mondorf-les-Bains, Luxembourg",
+			"geometry": {
+				"bounds": {
+					"northeast": {
+						"lat": 49.50483440,
+						"lng": 6.281455900000001
+					},
+					"southwest": {
+						"lat": 49.50369999999999,
+						"lng": 6.280730000000001
+					}
+				},
+				"location": {
+					"lat": 49.50416470,
+					"lng": 6.2811430
+				},
+				"location_type": "GEOMETRIC_CENTER",
+				"viewport": {
+					"northeast": {
+						"lat": 49.50561618029150,
+						"lng": 6.282441930291503
+					},
+					"southwest": {
+						"lat": 49.50291821970850,
+						"lng": 6.279743969708499
+					}
+				}
+			},
+			"types": ["route"]
+		}, {
+			"address_components": [
+				{
+					"long_name": "Chem",
+					"short_name": "Chem",
+					"types": ["natural_feature"]
+				}, {
+					"long_name": "Novossibirsk",
+					"short_name": "Novossibirsk",
+					"types": ["administrative_area_level_1", "political"]
+				}, {
+					"long_name": "Russie",
+					"short_name": "RU",
+					"types": ["country", "political"]
+				}
+			],
+			"formatted_address": "Chem, Oblast de Novossibirsk, Russie",
+			"geometry": {
+				"bounds": {
+					"northeast": {
+						"lat": 54.91981999999999,
+						"lng": 84.31139999999999
+					},
+					"southwest": {
+						"lat": 54.656910,
+						"lng": 83.73720999999999
+					}
+				},
+				"location": {
+					"lat": 54.7883650,
+					"lng": 84.0243050
+				},
+				"location_type": "APPROXIMATE",
+				"viewport": {
+					"northeast": {
+						"lat": 54.91981999999999,
+						"lng": 84.31139999999999
+					},
+					"southwest": {
+						"lat": 54.656910,
+						"lng": 83.73720999999999
+					}
+				}
+			},
+			"types": ["natural_feature"]
+		}
+	],
+	"status": "OK"
+}
