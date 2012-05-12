@@ -14,12 +14,14 @@ function initialize() {
 }
 
 function displayOnGoogleMaps() {
-	var item = $("#address").data("placeSelected");
+	var latLong = $("#address").data("placeSelected");
 
-	map.setCenter(item.data.geometry.location);
+	//little trick: if you want to get latitude or longitude separately you must call lat()/lng() function over latLong object!
+	//alert('latitude: ' + latLong.lat() + '; longitude: ' + latLong.lng());
+	map.setCenter(latLong);
 	var marker = new google.maps.Marker({
 		map : map,
-		position : item.data.geometry.location
+		position : latLong
 	});
 }
 
@@ -35,7 +37,7 @@ $(document).ready(function() {
 						return {
 							label : item.formatted_address,
 							value : item.formatted_address,
-							data : item
+							latLong : item.geometry.location
 						}
 					}));
 				} else {
@@ -45,7 +47,7 @@ $(document).ready(function() {
 		},
 		minLength : 3,
 		select : function(event, ui) {
-			$(this).data("placeSelected", ui.item);
+			$(this).data("placeSelected", ui.item.latLong);
 		}
 	});
 
